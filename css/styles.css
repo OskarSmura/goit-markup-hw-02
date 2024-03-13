@@ -1,1 +1,52 @@
-@import 'modern-normalize/modern-normalize.css';
+@import 'modern-normalizemodern-normalize.css';
+
+.body{ 
+    font-family: "Roboto", sans-serif;
+color: #434455;
+background-color: #FFFFFF;
+}
+.webstudio{ /* webstudio */
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+
+}
+.studio{ /* logo podzielone tylko studio sie zmienia*/
+    color: #2e2f42;
+}
+.page-nav{ /* contacts, portfolio, studio */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.page-nav:hover{
+    color: #404bbf;
+}
+.page-nav:focus{
+    color: #404bbf;
+}
+.adres{
+    font-style: normal
+}
+.contact{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.contact:hover{
+    color: #404bbf;
+}
+.contact:focus{
+    color: #404bbf;
+}
+.under-head{
+    background-color: #2e2f42;
+}
+
